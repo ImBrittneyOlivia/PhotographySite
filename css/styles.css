@@ -1,0 +1,68 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* ABOUT SECTION  */
+#about,
+#services {
+  /* background: green; */
+  padding: 5%;
+  text-align: center;
+}
+
+.about-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 60px;
+}
+
+.about-details {
+  margin-top: 5%;
+  text-align: justify;
+}
+
+.about-img {
+  height: 40vh;
+  box-shadow: 1px 2px 3px black;
+}
+
+/* PARALLAX */
+
+.parallax {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1534111793222-33a987d9cd63?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+
+  /* Set a specific height */
+  min-height: 350px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Gallery  */
+#gallery {
+  padding: 5%;
+}
+.gallery-img {
+  margin: 2%;
+}
+/* Testimonial Section */
+
+#testimonials {
+  background: black;
+  padding: 5%;
+  text-align: center;
+  color: white;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
